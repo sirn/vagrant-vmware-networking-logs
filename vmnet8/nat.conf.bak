@@ -58,8 +58,6 @@ nbdsTimeout = 3
 # The format and example are as follows:
 #<external port number> = <VM's IP address>:<VM's port number>
 #8080 = 172.16.3.128:80
-8080 = 172.16.99.128:80
-2200 = 172.16.99.128:22
 
 [incomingudp]
 
