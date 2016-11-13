@@ -10,3 +10,5 @@ answer VNET_8_HOSTONLY_NETMASK 255.255.255.0
 answer VNET_8_HOSTONLY_SUBNET 172.16.99.0
 answer VNET_8_NAT yes
 answer VNET_8_VIRTUAL_ADAPTER yes
+add_nat_portfwd 8 tcp 2200 172.16.99.128 22
+add_nat_portfwd 8 tcp 8080 172.16.99.128 80
